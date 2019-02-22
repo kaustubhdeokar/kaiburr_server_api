@@ -14,5 +14,5 @@ class ApplicationHandler(Application):
 if __name__ == "__main__":
     parse_command_line()
     server = HTTPServer(ApplicationHandler())
-    server.listen(9000)
+    server.listen(os.environ.get("PORT", 8000))
     IOLoop.instance().start()

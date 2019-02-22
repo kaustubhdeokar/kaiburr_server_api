@@ -1,8 +1,10 @@
 # kaiburr_server_api
-Task for Kaiburr internship selection
+Task for Kaiburr internship selection 
+By Kaustubh Deokar(16BCE0353)
+
 
 ## PUT requests
-`curl https://kaiburrtask1.herokuapp.com -XPUT -d '{"name": "Tornado server", "id": "125","language":"python","framework":"tornado"}'`
+`curl https://kaiburrtask1.herokuapp.com -XPUT -d '{"name": "Tornado server", "id":"125","language":"python","framework":"tornado"}'`
 <br>response - 
 {"status": 201, "message": "server id 125 successfully"}
 

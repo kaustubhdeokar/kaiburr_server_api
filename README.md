@@ -14,11 +14,11 @@ Server deployed at - https://kaiburrtask1.herokuapp.com
 <br>response - {"status": 200, "message": "success", "servers": [{"name": "my centos", "id": "123", "language": "python", "framework": "django"}, {"name": "Tornado server", "id": "125", "language": "python", "framework": "tornado"}]}
 <br>
 <br>
-`curl -X GET https://kaiburrtask1.herokuapp.com?123`
+`curl -X GET https://kaiburrtask1.herokuapp.com?id=123`
 <br>
 {"status": 200, "message": "success","servers":{"name": "my centos", "id": "123", "language": "python", "framework": "django"}}
 <br>
-`curl -X GET https://kaiburrtask1.herokuapp.com?123`
+`curl -X GET https://kaiburrtask1.herokuapp.com?id=123`
 <br>
 {"status": 404, "message": "no servers"}
 <br>
